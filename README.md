@@ -15,6 +15,6 @@ cooking apicloud [options]
 # apicloud watch
 cooking apicloud watch
 
-# apicloud build
+# apicloud build TODO
 cooking apicloud build
 ```

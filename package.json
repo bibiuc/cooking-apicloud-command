@@ -1,6 +1,6 @@
 {
   "name": "cooking-apicloud-command",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "apicloud mode",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/bibiuc/cooking-apicloud-command/issues"
   },
-  "homepage": "https://github.com/bibiuc/cooking-apicloud-command#readme"
+  "homepage": "https://github.com/bibiuc/cooking-apicloud-command#readme",
+  "dependencies": {
+    "apicloud-tools-core": "^0.1.0"
+  }
 }
