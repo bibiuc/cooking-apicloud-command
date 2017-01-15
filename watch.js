@@ -8,6 +8,7 @@ const APICloud = require('apicloud-tools-core');
 
 module.exports = function (program, configs) {
   let compiler;
+  configs.devServer = {enable:false};
   compiler = webpack(configs)
 
   logger.log('Loading...')
