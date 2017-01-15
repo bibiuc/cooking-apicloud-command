@@ -1,7 +1,7 @@
 {
-  "name": "cooking-test-command",
-  "version": "0.1.1",
-  "description": "test mode",
+  "name": "cooking-apicloud-command",
+  "version": "0.0.1",
+  "description": "apicloud mode",
   "main": "index.js",
   "scripts": {
     "test": ""
@@ -12,12 +12,12 @@
   },
   "keywords": [
     "cooking",
-    "test"
+    "apicloud"
   ],
   "author": "cinwell.li@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cookingjs/cooking-test-command/issues"
+    "url": "https://github.com/bibiuc/cooking-apicloud-command/issues"
   },
-  "homepage": "https://github.com/cookingjs/cooking-test-command#readme"
+  "homepage": "https://github.com/bibiuc/cooking-apicloud-command#readme"
 }
