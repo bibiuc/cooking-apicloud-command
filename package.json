@@ -1,0 +1,23 @@
+{
+  "name": "cooking-test-command",
+  "version": "0.1.1",
+  "description": "test mode",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cookingjs/cooking-test-command.git"
+  },
+  "keywords": [
+    "cooking",
+    "test"
+  ],
+  "author": "cinwell.li@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cookingjs/cooking-test-command/issues"
+  },
+  "homepage": "https://github.com/cookingjs/cooking-test-command#readme"
+}
