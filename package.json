@@ -1,6 +1,6 @@
 {
   "name": "cooking-apicloud-command",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "apicloud mode",
   "main": "index.js",
   "scripts": {

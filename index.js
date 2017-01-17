@@ -1,5 +1,5 @@
 'use strict'
-process.env.NODE_ENV = 'development'
+process.env.NODE_ENV = 'apicloud'
 
 const {PLUGIN_PATH, CWD_PATH} = require('cooking-path')
 const logger = require('cooking/util/logger');
