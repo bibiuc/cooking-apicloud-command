@@ -29,7 +29,7 @@ module.exports = function(program, configs) {
             return logger.error(err)
         }
         APICloud.syncWifi({
-            syncAll: true,
+            updateAll: !(count++),
             projectPath: compiler.options.output.path
         })
         logger.log('webpack info \n' + stats.toString(configs.devServer.stats))
@@ -37,4 +37,11 @@ module.exports = function(program, configs) {
     APICloud.startWifi({
         port: program.progress || 8090
     })
+    APICloud.socketServer.on('connection', () => {
+        if(count)
+            APICloud.syncWifi({
+                updateAll: true,
+                projectPath: compiler.options.output.path
+            })
+    });
 };
