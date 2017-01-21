@@ -37,11 +37,4 @@ module.exports = function(program, configs) {
     APICloud.startWifi({
         port: program.progress || 8090
     })
-    APICloud.socketServer.on('connection', () => {
-        if(count)
-            APICloud.syncWifi({
-                updateAll: true,
-                projectPath: compiler.options.output.path
-            })
-    });
 };
